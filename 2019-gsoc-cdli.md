@@ -11,14 +11,15 @@ giles@thaumas.net
 
 Recently, the Perseus Digital Library project published their
 next-generation online interface for reading and comparing texts,
-called Scaife.[1] While Perseus is focussed on ancient Greek and
-Latin, the viewer project is separate and intended to be available
-for other languages.
+called [Scaife](https://github.com/scaife-viewer/). While Perseus
+is focussed on ancient Greek and Latin, the viewer project is
+separate and intended to be available for other languages.
 
 I propose to write an export tool for the CDLI dataset so it can
 be used with this new viewer. The tool will need to convert the native
 AFT markup used by CDLI to the Text Encoding Initiative (TEI) XML schema
-used by Perseus, and generate corresponding Canonical Text Services[2]
+used by Perseus, and generate corresponding
+[Canonical Text Services](https://github.com/cite-architecture/cts_spec)
 annotations for each source.
 
 This will improve the accessibilty of the CDLI corpus by making it
@@ -120,6 +121,4 @@ developed basic websites in the past.
 I hope you will consider my application and look forward to the
 possibility of working with you.
 
-[1] https://github.com/scaife-viewer/
-[2] https://github.com/cite-architecture/cts_spec
 
