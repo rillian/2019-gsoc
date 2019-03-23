@@ -22,7 +22,7 @@ used by Perseus, and generate corresponding
 [Canonical Text Services](https://github.com/cite-architecture/cts_spec)
 annotations for each source.
 
-This will improve the accessibilty of the CDLI corpus by making it
+This will improve the accessibility of the CDLI corpus by making it
 available to the larger community of tools developed for TEI analysis
 and provide a newer, more powerful, option for accessing the CDLI
 corpus online.
@@ -38,7 +38,7 @@ directions, regardless of the success of other aspects of the project.
     - Builds on existing work.
     - Python is widely used by NLP folks, so more accessible
       and maintainable code.
-    - I noticed in passing pyoracc doesn't validate the current cdli
+    - I noticed in passing pyoracc doesn't validate the current CDLI
       database dump, so some cleanup work is likely here.
   - If Python is too slow, I prefer porting the tool to Rust.
     - Pro: At least as fast as C/C++, high-level.
@@ -51,10 +51,10 @@ directions, regardless of the success of other aspects of the project.
   - Any other requirements?
 - Stand up an instance of the Scaife Viewer.
   - Build familiarity with features and tools the converter should support.
-  - Lets us interate quickly and simplifies user testing and review.
+  - Lets us iterate quickly and simplifies user testing and review.
 - Document tools and schema mapping.
 - Package results to support reuse.
-- Investivate implementing the CTS api as a web service.
+- Investigate implementing the CTS api as a web service.
   - Hyperlink directly to resources on the main CDLI site.
 - Maybe produce an alternate CDLI export repo with TEI versions suitable for import.
   - Similar to the list Perseus uses.
@@ -68,7 +68,7 @@ I have a couple of other ideas which might work as side projects either as a war
     - Clarifies abbreviations, etc.
   - General keyword search.
     - Search in all fields, probably with a boost list for ordering results.
-    - Can sort terms matching completion list above into associated fields.i
+    - Can sort terms matching completion list above into associated fields.
 - Use sign list on the CDLI website.
   - Allow searching transliterations by unicode cuneiform.
   - Allow optional display of transliterations as a sort of normalized transcription.
@@ -77,13 +77,13 @@ I have a couple of other ideas which might work as side projects either as a war
 
 ## About the student
 
-I'm studying the languages and cultures of the ancient mediterranean at
+I'm studying the languages and cultures of the ancient Mediterranean at
 the University of British Columbia. I'll have had one term of Akkadian
 (Huehnergard's grammar through chapter 16) and a year of ancient Greek
 by the beginning of the Summer of Code project. I've also read some
 Middle Egyptian on my own.
 
-I'm primarily intersted in ancient writing systems and making scholarship
+I'm primarily interested in ancient writing systems and making scholarship
 more accessible. Motivated by the promise of automation to make new kinds
 of scholarship possible, I want to work with the CDLI as one of the most
 open ancient script collaborations and as a way to continue improving
@@ -100,7 +100,7 @@ collaboration and project management a skills.
 While at Mozilla, I spearheaded a project to ship the first code written
 in the new Rust programming language within Firefox, leading the way
 for multiple subsequent projects enabling significant improvements
-in performance and reliablilty. Introducing a new compiled language
+in performance and reliability. Introducing a new compiled language
 was a significant challenge is a project that size, with hundreds
 of active contributors and significant process automation.
 
