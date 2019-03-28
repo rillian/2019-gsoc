@@ -56,6 +56,10 @@ directions, regardless of the success of other aspects of the project.
 - Package results to support reuse.
 - Investigate implementing the CTS api as a web service.
   - Hyperlink directly to resources on the main CDLI site.
+- Investigate inclusion of CoNLL annotation layers.
+  - Does it make sense to define a TEI div class for these?
+  - Can scaife do anything useful with them? Could it?
+  - Would adding direct support to scaife for CoNLL or RDF be better?
 - Maybe produce an alternate CDLI export repo with TEI versions suitable for import.
   - Similar to the list Perseus uses.
 
