@@ -52,14 +52,20 @@ directions, regardless of the success of other aspects of the project.
 - Stand up an instance of the Scaife Viewer.
   - Build familiarity with features and tools the converter should support.
   - Lets us iterate quickly and simplifies user testing and review.
+  - Add the sciafe containers to the cdli deployment?
 - Document tools and schema mapping.
 - Package results to support reuse.
-- Investigate implementing the CTS api as a web service.
-  - Hyperlink directly to resources on the main CDLI site.
+- Add image support to the Scaife viewer
+  - Scaife is text-only at the moment.
+  - It's great to compare with images and drawings of primary sources.
+  - CDLI has lots of those; see if we can hook them up as another layer.
+  - Supports better integration of the visual ml results.
 - Investigate inclusion of CoNLL annotation layers.
   - Does it make sense to define a TEI div class for these?
   - Can scaife do anything useful with them? Could it?
   - Would adding direct support to scaife for CoNLL or RDF be better?
+- Investigate implementing the CTS api as a web service.
+  - Hyperlink directly to resources on the main CDLI site.
 - Maybe produce an alternate CDLI export repo with TEI versions suitable for import.
   - Similar to the list Perseus uses.
 
@@ -82,14 +88,14 @@ I have a couple of other ideas which might work as side projects either as a war
 ## About the student
 
 I'm studying the languages and cultures of the ancient Mediterranean at
-the University of British Columbia. I'll have had one term of Akkadian
+the University of British Columbia. I have had one term of Akkadian
 (Huehnergard's grammar through chapter 16) and a year of ancient Greek
-by the beginning of the Summer of Code project. I've also read some
+as of the beginning of the Summer of Code project. I've also read some
 Middle Egyptian on my own.
 
 I'm primarily interested in ancient writing systems and making scholarship
 more accessible. Motivated by the promise of automation to make new kinds
-of scholarship possible, I want to work with the CDLI as one of the most
+of research possible, I want to work with the CDLI as one of the most
 open ancient script collaborations and as a way to continue improving
 my knowledge of cuneiform.
 
@@ -103,10 +109,10 @@ collaboration and project management a skills.
 
 While at Mozilla, I spearheaded a project to ship the first code written
 in the new Rust programming language within Firefox, leading the way
-for multiple subsequent projects enabling significant improvements
+for multiple subsequent projects enabling improvements
 in performance and reliability. Introducing a new compiled language
 was a significant challenge is a project that size, with hundreds
-of active contributors and significant process automation.
+of active contributors and complex process automation.
 
 Before that I worked on the Ghostscript project, a converter for
 Postscript and PDF document formats. In parallel, I volunteered
