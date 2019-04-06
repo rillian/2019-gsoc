@@ -105,7 +105,7 @@ I have significant experience with open source. I'm used to developing
 code in collaboration with others and in public. I've worked as a paid
 developer on the Firefox web browser, primarily on audio and video
 playback support. I'm able to work independently and I have good
-collaboration and project management a skills.
+collaboration and project management skills.
 
 While at Mozilla, I spearheaded a project to ship the first code written
 in the new Rust programming language within Firefox, leading the way
