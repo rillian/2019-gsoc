@@ -78,7 +78,7 @@ cdli-cts)
 To get good typography for transliteration lines we need markup for
 determinatives, logograms and damage. Those should be represented
 by tei elements in the document served by CTS and converted to html
-elements like `<pre>` and `<span>` with custom classes for display.
+elements like `<sup>` and `<span>` with custom classes for display.
 That's not too hard, but to protect against cross-site scripting
 the entire xml tree must be checked and cleaned of elements we don't
 want, which isn't something we should write ourselves.
