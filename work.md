@@ -30,13 +30,18 @@ up a temporary one on my own domain.
  - https://github.com/cdli-gh/cdli-cts (tei export target repo)
  - https://github.com/cdli-gh/cdli-cts-server (capitains server for
 cdli-cts)
- - https://github.com/rillian/readhomer (scaife fork: check cdli branch)
+ - https://github.com/rillian/readhomer (scaife fork; check cdli branch)
  - https://github.com/oracc/pyoracc (parser atf2tei is using)
 
 ## Contributions to upstream projects
 
- - https://github.com/oracc/pyoracc/pull/81
+ - https://github.com/Capitains/HookTest/pull/146 (merged)
+ - https://github.com/Capitains/HookTest/pull/144 (merged)
+ - https://github.com/Capitains/HookTest/pull/143 (merged)
+ - https://github.com/oracc/pyoracc/pull/84 (merged)
+ - https://github.com/oracc/pyoracc/pull/81 (merged)
  - https://github.com/oracc/pyoracc/pull/80 (merged)
+ - https://github.com/oracc/pyoracc/pull/79 (merged)
  - https://github.com/oracc/pyoracc/pull/77 (merged)
  - https://github.com/oracc/pyoracc/pull/76 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/42 (merged)
@@ -48,6 +53,8 @@ cdli-cts)
  - https://github.com/scaife-viewer/scaife-basic/pull/5
  - https://gitlab.com/cdli/framework/merge_requests/11 (merged)
 
+ - https://github.com/Capitains/Nautilus/issues/85
+ - https://github.com/Capitains/HookTest/issues/145
  - https://github.com/scaife-viewer/scaife-viewer/issues/370
  - https://github.com/scaife-viewer/readhomer/issues/34
  - https://github.com/oracc/pyoracc/issues/78
