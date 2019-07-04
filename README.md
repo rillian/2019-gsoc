@@ -50,6 +50,7 @@ cdli-cts)
  - https://github.com/oracc/pyoracc/pull/76 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/42 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/41 (merged)
+ - https://github.com/pytest-dev/pytest/pull/5416 (merged)
  - https://github.com/scaife-viewer/readhomer/pull/30
  - https://github.com/scaife-viewer/readhomer/pull/31
  - https://github.com/scaife-viewer/readhomer/pull/33
