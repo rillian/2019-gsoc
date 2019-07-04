@@ -36,6 +36,8 @@ cdli-cts)
 
 ## Contributions to upstream projects
 
+### Pull requests
+
  - https://github.com/Capitains/HookTest/pull/146 (merged)
  - https://github.com/Capitains/HookTest/pull/144 (merged)
  - https://github.com/Capitains/HookTest/pull/143 (merged)
@@ -54,6 +56,8 @@ cdli-cts)
  - https://github.com/scaife-viewer/scaife-basic/pull/5
  - https://gitlab.com/cdli/framework/merge_requests/11 (merged)
 
+### Issues
+
  - https://github.com/Capitains/Nautilus/issues/85
  - https://github.com/Capitains/HookTest/issues/145
  - https://github.com/scaife-viewer/scaife-viewer/issues/370
@@ -61,6 +65,8 @@ cdli-cts)
  - https://github.com/oracc/pyoracc/issues/78
  - https://github.com/oracc/pyoracc/issues/82
  - https://github.com/oracc/pyoracc/issues/83
+
+### Data
 
  - Reported various atf syntax inconsistencies I found to @epp
    who corrected the master database.
