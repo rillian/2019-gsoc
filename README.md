@@ -15,8 +15,8 @@ up a temporary one on my own domain.
 
  - Visit the test server at https://cdli.thaumas.net/scaife/
    (If necessary, click the gear and enable the 'CDLI Reader'.)
- - Enter X001001 and click 'Lookup'.
- - Click 'Translation' to show/hide the parallel translation.
+ - Enter X001001 and click *Lookup*.
+ - Click *Translation* to show/hide the parallel translation.
 
 ## Milestones
 
