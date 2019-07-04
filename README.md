@@ -20,10 +20,10 @@ up a temporary one on my own domain.
 
 ## Milestones
 
-[x] Convert a document from ATF and display it in Scaife.
-[ ] Batch convert a subset of records and make them browsable.
-[ ] Set up automated export from CDLI data to a CTS repo.
-[ ] Integrate with the cdli website.
+- [x] Convert a document from ATF and display it in Scaife.
+- [ ] Batch convert a subset of records and make them browsable.
+- [ ] Set up automated export from CDLI data to a CTS repo.
+- [ ] Integrate with the cdli website.
 
 # Code
 
