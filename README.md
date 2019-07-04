@@ -117,8 +117,8 @@ proof-of-concept but will need further work after the project finishes.
 ### Localization.
 
 An Arabic interface translation is something we'd like to do for the
-reader interface. Scaife-viewer is using django to do this, can try
-one of the vue.js packages on the readhomer re-write.
+reader. Scaife-viewer is using django to do this, can try one of the
+vue.js packages on the readhomer re-write.
 
 ### CTS GetCapabilities doesn't scale.
 
