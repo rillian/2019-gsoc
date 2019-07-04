@@ -1,9 +1,10 @@
 # 2019 Google Summer of Code Project
 
-From June through August of 2019 I wrote a Text Encoding Initiative
-exporter for the Cuneiform Digital Library Initiative, to make data
-from Cuneiform tablets and other inscriptions more accessible,
-in particular to the Scaife reading environment.
+From June through August of 2019 I wrote a
+[Text Encoding Initiative](https://tei-c.org://tei-c.org/)
+exporter for the [Cuneiform Digital Library Initiative[(https://cdli.ucla.edu),
+to make data from cuneiform tablets and other inscriptions more accessible,
+in particular to the [Scaife](https://scaife-viewer.org) reading environment.
 
 This is a summary of what I accomplished.
 
