@@ -2,7 +2,7 @@
 
 From June through August of 2019 I wrote a
 [Text Encoding Initiative](https://tei-c.org://tei-c.org/)
-exporter for the [Cuneiform Digital Library Initiative[(https://cdli.ucla.edu),
+exporter for the [Cuneiform Digital Library Initiative](https://cdli.ucla.edu),
 to make data from cuneiform tablets and other inscriptions more accessible,
 in particular to the [Scaife](https://scaife-viewer.org) reading environment.
 
