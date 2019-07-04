@@ -5,7 +5,6 @@ From June through August of 2019 I wrote a
 exporter for the [Cuneiform Digital Library Initiative](https://cdli.ucla.edu),
 to make data from cuneiform tablets and other inscriptions more accessible,
 in particular to the [Scaife](https://scaife-viewer.org) reading environment.
-
 [Project link](https://summerofcode.withgoogle.com/projects/#5983146665836544).
 
 This is a summary of what I accomplished.
