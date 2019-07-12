@@ -22,7 +22,7 @@ up a temporary one on my own domain.
 ## Milestones
 
 - [x] Convert a document from ATF and display it in Scaife.
-- [ ] Batch convert a subset of records and make them browsable.
+- [ ] Publish a repo with a subset of convertable records.
 - [ ] Set up automated export from CDLI data to a CTS repo.
 - [ ] Integrate with the cdli website.
 
@@ -39,9 +39,11 @@ cdli-cts)
 
 ### Pull requests
 
+ - https://github.com/Capitains/flask-capitains-nemo/pull/125 (merged)
  - https://github.com/Capitains/HookTest/pull/146 (merged)
  - https://github.com/Capitains/HookTest/pull/144 (merged)
  - https://github.com/Capitains/HookTest/pull/143 (merged)
+ - https://github.com/oracc/pyoracc/pull/85 (merged)
  - https://github.com/oracc/pyoracc/pull/84 (merged)
  - https://github.com/oracc/pyoracc/pull/81 (merged)
  - https://github.com/oracc/pyoracc/pull/80 (merged)
@@ -50,6 +52,7 @@ cdli-cts)
  - https://github.com/oracc/pyoracc/pull/76 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/42 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/41 (merged)
+ - https://github.com/pallets/jinja/pull/1030
  - https://github.com/pytest-dev/pytest/pull/5416 (merged)
  - https://github.com/scaife-viewer/readhomer/pull/30
  - https://github.com/scaife-viewer/readhomer/pull/31
