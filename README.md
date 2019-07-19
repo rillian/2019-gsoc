@@ -39,6 +39,7 @@ cdli-cts)
 
 ### Pull requests
 
+ - https://github.com/Capitains/MyCapytain/pull/192
  - https://github.com/Capitains/flask-capitains-nemo/pull/125 (merged)
  - https://github.com/Capitains/HookTest/pull/146 (merged)
  - https://github.com/Capitains/HookTest/pull/144 (merged)
@@ -59,6 +60,7 @@ cdli-cts)
  - https://github.com/scaife-viewer/readhomer/pull/33
  - https://github.com/scaife-viewer/scaife-basic/pull/6
  - https://github.com/scaife-viewer/scaife-basic/pull/5
+ - https://github.com/vim/vim/pull/4619 (merged)
  - https://gitlab.com/cdli/framework/merge_requests/11 (merged)
 
 ### Issues

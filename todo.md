@@ -2,15 +2,16 @@
 
 In the near term
 
-- Complete class model for TEI serialization.
-- Generate and poke in CTS metadata in atf2cts.
+- Complete class model for TEI serialization. (done)
+- Generate and poke in CTS metadata in atf2cts. (done)
 - Modularize changes to readhomer.
-- Improve conversion to pass HookTest.
+- Improve conversion to pass HookTest. (mostly done; capytains bugs)
 - Complete atf line markup generation.
   - tag words
   - tag damaged signs.
   - tag restored text.
-- Report atf syntax problems as issues on cdli-gh/data.
+- Report atf syntax problems as issues on cdli-gh/data. (ongoing progress)
+  - https://github.com/cdli-gh/data/issues?q=label:"atf+syntax"
 
 In the medium term
 
@@ -25,6 +26,7 @@ In the medium term
 Further ideas
 
 - Figure out something for search!
+  - https://github.com/cdli-gh/cdli-search
 - Merge metadata from csv export.
 - Merge conll annotation data.
 - Write 'lax' line-based parser for pyoracc.
