@@ -39,7 +39,7 @@ cdli-cts)
 
 ### Pull requests
 
- - https://github.com/Capitains/MyCapytain/pull/192
+ - https://github.com/Capitains/MyCapytain/pull/192 (merged)
  - https://github.com/Capitains/flask-capitains-nemo/pull/125 (merged)
  - https://github.com/Capitains/HookTest/pull/146 (merged)
  - https://github.com/Capitains/HookTest/pull/144 (merged)
@@ -53,7 +53,7 @@ cdli-cts)
  - https://github.com/oracc/pyoracc/pull/76 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/42 (merged)
  - https://github.com/cdli-gh/pyoracc/pull/41 (merged)
- - https://github.com/pallets/jinja/pull/1030
+ - https://github.com/pallets/jinja/pull/1030 (merged)
  - https://github.com/pytest-dev/pytest/pull/5416 (merged)
  - https://github.com/scaife-viewer/readhomer/pull/30
  - https://github.com/scaife-viewer/readhomer/pull/31
