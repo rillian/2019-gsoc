@@ -22,7 +22,7 @@ up a temporary one on my own domain.
 ## Milestones
 
 - [x] Convert a document from ATF and display it in Scaife.
-- [ ] Publish a repo with a subset of convertable records.
+- [x] Publish a repo with a subset of convertable records.
 - [ ] Set up automated export from CDLI data to a CTS repo.
 - [ ] Integrate with the cdli website.
 
