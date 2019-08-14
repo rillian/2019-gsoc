@@ -87,6 +87,77 @@ components of the project.
    various atf syntax inconsistencies I found to @epp who
    corrected the master database.
 
+## Future work
+
+Continuation points for the project, and where I'd like to see
+it develop over time.
+
+### Improve ATF conversion
+
+Line markup isn't fully converted. The export xml files should
+use tei markup to represent damage, restorations, smallcap
+logograms, and superscript determinatives. This would need
+to be supported both in `atf2tei` and in the tei parser in
+scaife. Greek and latin layout works well enough with plain
+unicode text, but cuneiform transliteration requires extra
+typographic features.
+
+There are also a some unhandled annotations, like comments
+and cross-references which should be supported.
+
+### Add catalogue metadata
+
+In addition to the ATF-format transcription data, CDLI publishes
+a csv-format catalog of each record. The conversion tool should
+read this and represent relevant fields in the teiHeader, so
+the xml documents are a more complete representation of the
+texts. At a minimum there should be publication references
+and urls for the hand-drawn copies and photographs of the
+source object. This will provide viewer software with everything
+it needs to present the same data as the main cdli website.
+
+I wrote a [python wrapper](https://github.com/cdli-gh/cdli-cts/blob/1813415/update/cdli.py)
+for the catalog metadata. This should be packaged so it can be
+shared between the various applications.
+
+There are other data sources which can also be added,
+either to the xml or the viewer. There are lemma and
+part of speech annotation data for many tablets, from
+mtaac, oracc, and other projects.
+
+### Develop a Scaife parallel reader
+
+Scaife right now expects text and translation as separate, long
+documents. That makes some sense given the history of the scholarship
+they're supporting. We have short documents where photo, copy,
+transliteration, normalization and translation are usually thought
+of line-by-line together.
+
+I would like to see my proof-of-concept *CDLI Reader* component
+developed into a proper modular set of files which could be easily
+added to any Scaife instance to support cuneiform documents.
+
+Ideally all of the above views of the text could be shown/hidden
+independently, and transition between parallel and interlinear
+presentations depending on screen size.
+
+### Develop full-text search
+
+I wrote a quick script to upload the catalog metadata to
+Elasticsearch where is could be searched as a full text.
+It didn't do better than the general search on the current
+CDLI website, but with some tuning it should be possible
+to improve things. For example searching for a tablet
+reference like 'K 162' should find P345482, the primary
+example of the Akkadian *Descent of Ishtar* text, without
+the user having to know to search for 'K 00162' in the
+accession number field.
+
+If the atf data is also uploaded and indexed appropriately,
+the service could provide easy programmatic access to the
+whole corpus from a very small codebase, loaded directly
+from the published data set.
+
 ## Open problems
 
 ### Find a js library to sanitize html code.
@@ -112,24 +183,6 @@ possible to get it handling the whole cdli corpus within the term.
 
 For future work, I'd want to revisit my ad-hoc, line-based parser
 and if that can get more documents available.
-
-### Parallel reader.
-
-Scaife right now expects text and translation as separate, long
-documents. That makes some sense given the history of the scholarship
-they're supporting. We have short documents where photo, copy,
-transliteration, normalization and translation are usually thought
-of line-by-line together.
-
-Would like to work with the scaife people to develop something which
-meets our needs in the context of other projects. For example, it would
-be nice if all of the above could be shown/hidden independently, and
-transitioned between parallel and interlinear presentations depending on
-screen size.
-
-So far upstream hasn't been very responsive, and I'm not a front-end
-developer, so we'll probably end up with something that's a technical
-proof-of-concept but will need further work after the project finishes.
 
 ### Localization.
 
