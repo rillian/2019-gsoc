@@ -35,7 +35,7 @@ the project.
  - https://github.com/cdli-gh/atf2tei (document converter)
  - https://github.com/cdli-gh/cdli-cts (tei export target repo)
  - https://github.com/cdli-gh/cdli-cts-server (capitains server for cdli-cts)
- - htpts://github.com/cdli-gh/cdli-search (Catalogue search experiment)
+ - https://github.com/cdli-gh/cdli-search (Catalogue search experiment)
 
 I made contributions to two more repositories which are important
 components of the project.
