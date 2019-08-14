@@ -23,8 +23,8 @@ up a temporary one on my own domain.
 
 - [x] Convert a document from ATF and display it in Scaife.
 - [x] Publish a repo with a subset of convertable records.
-- [ ] Set up automated export from CDLI data to a CTS repo.
-- [ ] Integrate with the cdli website.
+- [x] Set up automated export from CDLI data to a CTS repo.
+- [ ] Demonstrate a scaife instance running somewhere.
 
 # Code
 
