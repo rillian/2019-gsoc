@@ -1,7 +1,7 @@
 # 2019 Google Summer of Code Project
 
 From June through August of 2019 I wrote a
-[Text Encoding Initiative](https://tei-c.org://tei-c.org/)
+[Text Encoding Initiative](https://tei-c.org/)
 exporter for the [Cuneiform Digital Library Initiative](https://cdli.ucla.edu),
 to make data from cuneiform tablets and other inscriptions more accessible,
 in particular to the [Scaife](https://scaife-viewer.org) reading environment.
@@ -15,8 +15,9 @@ The project itself didn't have a public staging server, so I set
 up a temporary one on my own domain.
 
  - Visit the test server at https://cdli.thaumas.net/scaife/
-   (If necessary, click the gear and enable the 'CDLI Reader'.)
- - Enter X001001 and click **Lookup**.
+   (If necessary, click the gear and enable the 'CDLI Reader'
+   and 'Suggested Documents' components.)
+ - Click on one of the suggested documents.
  - Click **Translation** to show/hide the parallel translation.
 
 ## Milestones
@@ -28,11 +29,18 @@ up a temporary one on my own domain.
 
 # Code
 
+The following are repositories with new code created as part of
+the project.
+
  - https://github.com/cdli-gh/atf2tei (document converter)
  - https://github.com/cdli-gh/cdli-cts (tei export target repo)
- - https://github.com/cdli-gh/cdli-cts-server (capitains server for
-cdli-cts)
- - https://github.com/rillian/readhomer (scaife fork; check cdli branch)
+ - https://github.com/cdli-gh/cdli-cts-server (capitains server for cdli-cts)
+ - htpts://github.com/cdli-gh/cdli-search (Catalogue search experiment)
+
+I made contributions to two more repositories which are important
+components of the project.
+
+ - https://github.com/cdli-gh/scaife (fork; check the cdli branch)
  - https://github.com/oracc/pyoracc (parser atf2tei is using)
 
 ## Contributions to upstream projects
@@ -75,8 +83,9 @@ cdli-cts)
 
 ### Data
 
- - Reported various atf syntax inconsistencies I found to @epp
-   who corrected the master database.
+ - [Reported](https://github.com/cdli-gh/data/issues?q=is:issue+label:%22atf+syntax%22)
+   various atf syntax inconsistencies I found to @epp who
+   corrected the master database.
 
 ## Open problems
 
@@ -98,10 +107,11 @@ text, which works ok for greek and latin, but not for us.
 The parser is strict, but what's in the library hasn't been carefully
 validated, so it rejects many entries.
 
-I've done a lot of cleanup work on the library and am happy to keep
-working on it, but I don't expect I can get it handling the whole cdli
-corpus by the end of the summer. I want to revisit my ad hoc line-based
-parser and if that can get more documents available in the time available.
+I did a lot of cleanup work on the library and am happy, but it wasn't
+possible to get it handling the whole cdli corpus within the term.
+
+For future work, I'd want to revisit my ad-hoc, line-based parser
+and if that can get more documents available.
 
 ### Parallel reader.
 
@@ -130,5 +140,8 @@ vue.js packages on the readhomer re-write.
 ### CTS GetCapabilities doesn't scale.
 
 Returning the whole cdli corpus in a single query is too much data.
-Opened an issue with scaife-viewer to figure out a shared way to
-address this. DTS (ld-json) or ATLAS (graphql) are options.
+Capitains is also quite slow indexing a large corpus.
+I opened an issue with scaife-viewer to figure out a shared way to
+address this.
+[DTS](https://distributed-text-services.github.io/specifications/) (ld-json)
+or ATLAS (graphql) are options.
