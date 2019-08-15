@@ -98,7 +98,7 @@ Line markup isn't fully converted. The export xml files should
 use tei markup to represent damage, restorations, smallcap
 logograms, and superscript determinatives. This would need
 to be supported both in `atf2tei` and in the tei parser in
-scaife. Greek and latin layout works well enough with plain
+Scaife. Greek and Latin layout works well enough with plain
 unicode text, but cuneiform transliteration requires extra
 typographic features.
 
