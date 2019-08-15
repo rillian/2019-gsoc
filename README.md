@@ -40,8 +40,14 @@ The following repositories are new code I wrote as part of the project:
 I made contributions to two more repositories which are important
 components of the project:
 
- - https://github.com/cdli-gh/scaife (fork; check the cdli branch)
+ - https://github.com/cdli-gh/scaife (fork of the reading environment)
  - https://github.com/oracc/pyoracc (parser atf2tei is using)
+
+Changed submitted to the upstream scaife repo were not merged.
+See the [cdli branch](https://github.com/cdli-gh/scaife/commits/cdli)
+for the customization work I did for the demo running above.
+
+See below for a contributions to the pyoracc parser.
 
 ## Contributions to upstream projects
 
@@ -90,8 +96,7 @@ components of the project:
 ## Future work
 
 Continuation points for the project, which I didn't have
-time to pursue during the project time. Hopefully these
-can be developed over time.
+time to pursue. Hopefully these can be developed over time.
 
 ### Improve ATF conversion
 
