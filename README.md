@@ -24,7 +24,7 @@ up a temporary one on my own domain.
 ## Milestones
 
 - [x] Convert a document from ATF and display it in Scaife.
-- [x] Publish a repo with a subset of convertable records.
+- [x] Publish a repo with a subset of convertible records.
 - [x] Set up automated export from CDLI data to a CTS repo.
 - [x] Demonstrate a scaife instance running somewhere.
 
@@ -43,9 +43,10 @@ components of the project:
  - https://github.com/cdli-gh/scaife (fork of the reading environment)
  - https://github.com/oracc/pyoracc (parser atf2tei is using)
 
-Changed submitted to the upstream scaife repo were not merged.
+Changes to the scaife repo were not accepted upstream, so this
+repo reflects our project's customized version.
 See the [cdli branch](https://github.com/cdli-gh/scaife/commits/cdli)
-for the customization work I did for the demo running above.
+for the changes I made for the demo running above.
 
 See below for a contributions to the pyoracc parser.
 
@@ -102,7 +103,7 @@ time to pursue. Hopefully these can be developed over time.
 
 ATF line markup isn't fully converted. The export xml files
 should use tei markup to represent damage, restorations,
-smallcap logograms, and superscript determinatives.
+smallcap logograms, and superscript determinative.
 This would need to be supported both in `atf2tei` and in the
 tei parser in Scaife. Greek and Latin layout works well enough
 with plain unicode text, but cuneiform transliteration requires
@@ -123,7 +124,7 @@ the xml documents are a more complete representation of the
 texts. At a minimum there should be publication references
 and urls for the hand-drawn copies and photographs of the
 source object. This will provide viewer software with everything
-it needs to present the same data as the main cdli website.
+it needs to present the same data as the main CDLI website.
 
 I wrote a [python wrapper](https://github.com/cdli-gh/cdli-cts/blob/1813415/update/cdli.py)
 for the catalog metadata. This should be packaged so it can be
@@ -171,7 +172,7 @@ from the published data set.
 ### Find a js library to sanitize html code.
 
 To get good typography for transliteration lines we need markup for
-determinatives, logograms and damage. Those should be represented
+determinative, logograms and damage. Those should be represented
 by tei elements in the document served by CTS and converted to html
 elements like `<sup>` and `<span>` with custom classes for display.
 That's not too hard, but to protect against cross-site scripting
@@ -181,13 +182,13 @@ want, which isn't something we should write ourselves.
 Suggestions welcome. Scaife avoids this issue by serving plain unicode
 text, which works ok for greek and latin, but not for us.
 
-### pyoracc doesn't handle enough of the cdli atf files.
+### pyoracc doesn't handle enough of the CDLI atf files.
 
 The parser is strict, but what's in the library hasn't been carefully
 validated, so it rejects many entries.
 
 I did a lot of cleanup work on the library, but it wasn't
-possible to get it handling the whole cdli corpus within the term.
+possible to get it handling the whole CDLI corpus within the term.
 Over the long term, syntax errors with the ATF in the database
 should be corrected, ingest should do more validation to reduce
 new errors, and pyoracc should be extended to support common features
@@ -206,7 +207,7 @@ vue.js packages on the readhomer re-write.
 
 ### CTS GetCapabilities doesn't scale.
 
-Returning the whole cdli corpus in a single query is too much data.
+Returning the whole CDLI corpus in a single query is too much data.
 Capitains is also quite slow indexing a large corpus.
 I opened an issue with scaife-viewer to figure out a shared way to
 address this.
