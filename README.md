@@ -43,10 +43,10 @@ components of the project:
  - https://github.com/cdli-gh/scaife (fork of the reading environment)
  - https://github.com/oracc/pyoracc (parser atf2tei is using)
 
-Changes to the scaife repo were not accepted upstream, so this
-repo reflects our project's customized version.
 See the [cdli branch](https://github.com/cdli-gh/scaife/commits/cdli)
 for the changes I made for the demo running above.
+Changes to the upstream scaife repo were not accepted, so this
+repo reflects our project's customized version.
 
 See below for a contributions to the pyoracc parser.
 
