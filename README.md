@@ -5,7 +5,8 @@ From June through August of 2019 I wrote a
 exporter for the [Cuneiform Digital Library Initiative](https://cdli.ucla.edu),
 to make data from cuneiform tablets and other inscriptions more accessible,
 in particular to the [Scaife](https://scaife-viewer.org) reading environment.
-[Project link](https://summerofcode.withgoogle.com/projects/#5983146665836544).
+The work was funded as a
+[Google Summer of Code Project](https://summerofcode.withgoogle.com/projects/#5983146665836544).
 
 This is a summary of what I accomplished.
 
@@ -29,8 +30,7 @@ up a temporary one on my own domain.
 
 # Code
 
-The following are repositories with new code created as part of
-the project.
+The following repositories are new code I wrote as part of the project:
 
  - https://github.com/cdli-gh/atf2tei (document converter)
  - https://github.com/cdli-gh/cdli-cts (tei export target repo)
@@ -38,7 +38,7 @@ the project.
  - https://github.com/cdli-gh/cdli-search (Catalogue search experiment)
 
 I made contributions to two more repositories which are important
-components of the project.
+components of the project:
 
  - https://github.com/cdli-gh/scaife (fork; check the cdli branch)
  - https://github.com/oracc/pyoracc (parser atf2tei is using)
@@ -89,21 +89,25 @@ components of the project.
 
 ## Future work
 
-Continuation points for the project, and where I'd like to see
-it develop over time.
+Continuation points for the project, which I didn't have
+time to pursue during the project time. Hopefully these
+can be developed over time.
 
 ### Improve ATF conversion
 
-Line markup isn't fully converted. The export xml files should
-use tei markup to represent damage, restorations, smallcap
-logograms, and superscript determinatives. This would need
-to be supported both in `atf2tei` and in the tei parser in
-Scaife. Greek and Latin layout works well enough with plain
-unicode text, but cuneiform transliteration requires extra
-typographic features.
+ATF line markup isn't fully converted. The export xml files
+should use tei markup to represent damage, restorations,
+smallcap logograms, and superscript determinatives.
+This would need to be supported both in `atf2tei` and in the
+tei parser in Scaife. Greek and Latin layout works well enough
+with plain unicode text, but cuneiform transliteration requires
+extra typographic features.
 
 There are also a some unhandled annotations, like comments
 and cross-references which should be supported.
+
+Export data should maintain correctness according to the
+[HookTest](https://github.com/Capitains/HookTest) suite.
 
 ### Add catalogue metadata
 
