@@ -122,7 +122,7 @@ shared between the various applications.
 
 There are other data sources which can also be added,
 either to the xml or the viewer. There are lemma and
-part of speech annotation data for many tablets, from
+part of speech annotation data for many tablets from
 mtaac, oracc, and other projects.
 
 ### Develop a Scaife parallel reader
@@ -131,15 +131,13 @@ Scaife right now expects text and translation as separate, long
 documents. That makes some sense given the history of the scholarship
 they're supporting. We have short documents where photo, copy,
 transliteration, normalization and translation are usually thought
-of line-by-line together.
+of line-by-line together. Ideally all of these could be shown/hidden
+independently, and transition between parallel and interlinear
+presentations depending on screen size.
 
 I would like to see my proof-of-concept *CDLI Reader* component
 developed into a proper modular set of files which could be easily
 added to any Scaife instance to support cuneiform documents.
-
-Ideally all of the above views of the text could be shown/hidden
-independently, and transition between parallel and interlinear
-presentations depending on screen size.
 
 ### Develop full-text search
 
@@ -147,11 +145,12 @@ I wrote a quick script to upload the catalog metadata to
 Elasticsearch where is could be searched as a full text.
 It didn't do better than the general search on the current
 CDLI website, but with some tuning it should be possible
-to improve things. For example searching for a tablet
-reference like 'K 162' should find P345482, the primary
-example of the Akkadian *Descent of Ishtar* text, without
-the user having to know to search for 'K 00162' in the
-accession number field.
+to improve things.
+
+For example, searching for a tablet reference like 'K 162'
+should find P345482, the primary example of the Akkadian
+*Descent of Ishtar* text, without the user having to know
+to search for 'K 00162' in the accession number field.
 
 If the atf data is also uploaded and indexed appropriately,
 the service could provide easy programmatic access to the
@@ -178,11 +177,17 @@ text, which works ok for greek and latin, but not for us.
 The parser is strict, but what's in the library hasn't been carefully
 validated, so it rejects many entries.
 
-I did a lot of cleanup work on the library and am happy, but it wasn't
+I did a lot of cleanup work on the library, but it wasn't
 possible to get it handling the whole cdli corpus within the term.
+Over the long term, syntax errors with the ATF in the database
+should be corrected, ingest should do more validation to reduce
+new errors, and pyoracc should be extended to support common features
+of the CDLI corpus.
 
-For future work, I'd want to revisit my ad-hoc, line-based parser
-and if that can get more documents available.
+For future work, I'd also want to revisit my ad-hoc, line-based parser
+and see if that can get more documents available. ATF is a simple
+format and a permissive parser might work better for an application
+like this where we're just trying to present the corpus as it is.
 
 ### Localization.
 
