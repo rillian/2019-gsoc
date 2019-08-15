@@ -15,19 +15,19 @@ In the near term
 
 In the medium term
 
-- Set up automated conversion and publication to cdli-cts.
+- Set up automated conversion and publication to cdli-cts. (done)
+- Merge metadata from csv export.
+- Continue to report atf syntax problems with the database.
 - Figure out Nautilus/HookTest performance problems.
   - Bugs? Slow algorithms?
   - Write my own sketch to understand the problem better.
 - Handle line markup rendering in scaife.
-- Make scaife reader to show all versions in the tei.
 - Make scaife reader switch between parallel and interlinear display.
 
 Further ideas
 
 - Figure out something for search!
   - https://github.com/cdli-gh/cdli-search
-- Merge metadata from csv export.
 - Merge conll annotation data.
 - Write 'lax' line-based parser for pyoracc.
   - Handle variants in the cdli atf.
