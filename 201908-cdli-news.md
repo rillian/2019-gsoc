@@ -29,8 +29,8 @@ CDLI was one of 204 organizations awarded participation in this
 year's Summer of Code program. Five students were selected and
 participated with the project this year.
 
-Ralph Giles, student, CDLI Summer of Code.
-Willis Monroe, mentor. Postdoctoral Fellow, University of British Columbia.
+Ralph Giles, student, CDLI Summer of Code.  
+Willis Monroe, mentor. Postdoctoral Fellow, University of British Columbia.  
 Émilie Pagé-Perron, Technical Director, Cuneiform Digital Library.
 
 Date: 
