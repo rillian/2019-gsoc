@@ -19,6 +19,8 @@ Open Greek and Latin project. By supporting common formats
 we can make use of common tools across multiple scholarly
 communities.
 
+![Cuneiform text displayed in the Scaife reading environment](Reader_20180915.jpeg "CDLI text in Scaife!")
+
 A [repository is available](https://github.com/cdli-gh/cdli-cts/)
 now with a test export of a subset of the data for any researchers
 who want to try it out.
