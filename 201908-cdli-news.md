@@ -11,27 +11,30 @@ TEI-XML laid out in the file hierarchy described by the
 *Canonical Text Services* model used by digital humanities
 project working with texts from the ancient world.
 
-CDLI publishes under and open data model and this new export
-format allows scholars and students to access and build on
-the data in new ways. The CTS standard is the basis for the
-new Scaife online reading environment developed for the Perseus
-Open Greek and Latin project. By supporting common formats
-we can make use of common tools across multiple scholarly
-communities.
+This makes a broad set of tools developed for analysis of
+historical texts available to Assyrologists.
+The CTS standard is the basis for the new Scaife reading
+environment developed for the Perseus Open Greek and Latin project,
+which provides easy and intuitive access to the corpus
+for reading, cross-reference, and comparison.
 
 ![Cuneiform text displayed in the Scaife reading environment](Reader_20180915.jpeg "CDLI text in Scaife!")
 
-A [repository is available](https://github.com/cdli-gh/cdli-cts/)
-now with a test export of a subset of the data for any researchers
+CDLI publishes under and open data model. By supporting common
+formats, we can make use of common tools across multiple scholarly
+communities, allowing scholars and students to access and build on
+the data in new ways. A new
+[export repository](https://github.com/cdli-gh/cdli-cts/)
+is available with a subset of the complete corpus for any researchers
 who want to try it out.
 
 CDLI was one of 204 organizations awarded participation in this
 year's Summer of Code program. Five students were selected and
 participated with the project this year.
 
-Ralph Giles, student, CDLI Summer of Code.  
+Ralph Giles, student, Google Summer of Code.  
 Willis Monroe, mentor. Postdoctoral Fellow, University of British Columbia.  
-Émilie Pagé-Perron, Technical Director, Cuneiform Digital Library.
+Émilie Pagé-Perron, Co-Principal Investigator, Cuneiform Digital Library Initiative.
 
 Date: 
 2019/08/19
