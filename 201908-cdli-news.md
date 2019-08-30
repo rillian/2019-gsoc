@@ -9,7 +9,7 @@ One of the projects was to make cuneiform transcriptions and
 translations from its the extensive database available in
 TEI-XML laid out in the file hierarchy described by the
 [*Canonical Text Services*](https://www.homermultitext.org/hmt-doc/cite/texts/ctsoverview.html) model used by digital humanities
-project working with texts from the ancient world.
+projects working with texts from the ancient world.
 
 This makes a broad set of tools developed for analysis of
 historical texts available to Assyriologists.
@@ -29,7 +29,7 @@ is available with a subset of the complete corpus for any researchers
 who want to try it out.
 
 In the future we hope to further develop this reader to allow for inter-linear translations,
-included metadata from the object catalog, and link to tablet images (when available).  The Scaife project
+include metadata from the object catalog, and link to tablet images (when available).  The Scaife project
 represents the valuable investment and cooperation in open-source technologies for the study of the
 ancient world.  We're excited to be working with our colleagues in the Greco-Roman classics to facilitate 
 the dissemination of ancient texts.
