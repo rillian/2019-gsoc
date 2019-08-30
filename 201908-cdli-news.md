@@ -45,4 +45,4 @@ Willis Monroe, mentor. Postdoctoral Fellow, University of British Columbia.
 Émilie Pagé-Perron, Co-Principal Investigator, Cuneiform Digital Library Initiative.
 
 Date: 
-2019/08/19
+2019/08/30
