@@ -28,11 +28,13 @@ the data in new ways. A new
 is available with a subset of the complete corpus for any researchers
 who want to try it out.
 
-In the future we hope to further develop this reader to allow for inter-linear translations,
-include metadata from the object catalog, and link to tablet images (when available).  The Scaife project
-represents the valuable investment and cooperation in open-source technologies for the study of the
-ancient world.  We're excited to be working with our colleagues in the Greco-Roman classics to facilitate 
-the dissemination of ancient texts.
+In the future we hope to further develop this reader to allow for
+inter-linear translations, include metadata from the object catalog,
+and link to tablet images (when available). The Scaife project
+represents the valuable investment and cooperation in open-source
+technologies for the study of the ancient world. We're excited
+to be working with our colleagues in the Greco-Roman classics
+to facilitate the dissemination of ancient texts.
 
 CDLI was one of 204 organizations awarded participation in this
 year's Summer of Code program. Five students were selected and
